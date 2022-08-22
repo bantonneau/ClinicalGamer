@@ -1,0 +1,126 @@
+h1, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p{
+    font-size: 18px;
+}
+
+img {
+    flex: 1 0 30%
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.header {
+    background-color: rgb(90, 87, 92);
+}
+
+.subheader {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logopng {
+    max-height: 75px;
+    width: auto;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    font-family: "Helvetica", sans-serif;
+}
+
+#shlinks {
+    display: flex;
+    gap: 16px;
+    align-content: center;
+}
+
+.links a {
+    color: #dfdfdf;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none
+}
+
+.hanger {
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.hangercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Helvetica", sans-serif;
+    color: #dfdfdf;
+    max-width: 600px;
+}
+
+.hangercontent p{
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.button-1 {
+  background-color: #59c3f0;
+  border-radius: 8px;
+  border-style: none;
+  color: #142f3a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  max-width: 180px;
+  height: 60px; 
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #408eaf;
+}
+
+.hangercontent button {
+    font-weight: bolder;
+}
+
+.hangerimage {
+    display: flex;
+}
+
+
